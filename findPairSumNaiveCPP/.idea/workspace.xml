@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="findPairSumNaiveCPP" targetName="findPairSumNaiveCPP" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da0a24ff-c735-4668-b723-af913a4957fd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1XDI2b4RC1Fvk04Y4GeMpVWAW4s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../techiedelights" />
+  </component>
+  <component name="RunManager">
+    <configuration name="findPairSumNaiveCPP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="findPairSumNaiveCPP" TARGET_NAME="findPairSumNaiveCPP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="findPairSumNaiveCPP" RUN_TARGET_NAME="findPairSumNaiveCPP">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da0a24ff-c735-4668-b723-af913a4957fd" name="Default Changelist" comment="" />
+      <created>1580574031310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580574031310</updated>
+      <workItem from="1580574033254" duration="93000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2138" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1580574065666">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2138" y="298" width="424" height="491" key="FileChooserDialogImpl/58.258.1308.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1580574065666" />
+  </component>
+</project>
