@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/zeroSumArrayPrintCppNaive.dir/main.cpp.o  -o zeroSumArrayPrintCppNaive 
