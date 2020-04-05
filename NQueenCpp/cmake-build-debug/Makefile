@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/107/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/103/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/107/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rdprassy/techiedelight/maxSubArrayEqualOand1
+CMAKE_SOURCE_DIR = /home/rdprassy/techiedelight/NQueenCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rdprassy/techiedelight/NQueenCpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/103/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/107/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/103/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/107/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-build-debug/CMakeFiles /home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/NQueenCpp/cmake-build-debug/CMakeFiles /home/rdprassy/techiedelight/NQueenCpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/NQueenCpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named maxSubArrayEqualOand1
+# Target rules for targets named NQueenCpp
 
 # Build rule for target.
-maxSubArrayEqualOand1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 maxSubArrayEqualOand1
-.PHONY : maxSubArrayEqualOand1
+NQueenCpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NQueenCpp
+.PHONY : NQueenCpp
 
 # fast build rule for target.
-maxSubArrayEqualOand1/fast:
-	$(MAKE) -f CMakeFiles/maxSubArrayEqualOand1.dir/build.make CMakeFiles/maxSubArrayEqualOand1.dir/build
-.PHONY : maxSubArrayEqualOand1/fast
+NQueenCpp/fast:
+	$(MAKE) -f CMakeFiles/NQueenCpp.dir/build.make CMakeFiles/NQueenCpp.dir/build
+.PHONY : NQueenCpp/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/maxSubArrayEqualOand1.dir/build.make CMakeFiles/maxSubArrayEqualOand1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/NQueenCpp.dir/build.make CMakeFiles/NQueenCpp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/maxSubArrayEqualOand1.dir/build.make CMakeFiles/maxSubArrayEqualOand1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/NQueenCpp.dir/build.make CMakeFiles/NQueenCpp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/maxSubArrayEqualOand1.dir/build.make CMakeFiles/maxSubArrayEqualOand1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/NQueenCpp.dir/build.make CMakeFiles/NQueenCpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... maxSubArrayEqualOand1"
+	@echo "... NQueenCpp"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

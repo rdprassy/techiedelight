@@ -35,30 +35,30 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/103/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/107/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/103/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/107/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rdprassy/techiedelight/maxSubArrayEqualOand1
+CMAKE_SOURCE_DIR = /home/rdprassy/techiedelight/NQueenCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rdprassy/techiedelight/NQueenCpp/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/maxSubArrayEqualOand1.dir/all
+all: CMakeFiles/NQueenCpp.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/maxSubArrayEqualOand1.dir/clean
+clean: CMakeFiles/NQueenCpp.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/maxSubArrayEqualOand1.dir
+# Target rules for target CMakeFiles/NQueenCpp.dir
 
 # All Build rule for target.
-CMakeFiles/maxSubArrayEqualOand1.dir/all:
-	$(MAKE) -f CMakeFiles/maxSubArrayEqualOand1.dir/build.make CMakeFiles/maxSubArrayEqualOand1.dir/depend
-	$(MAKE) -f CMakeFiles/maxSubArrayEqualOand1.dir/build.make CMakeFiles/maxSubArrayEqualOand1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target maxSubArrayEqualOand1"
-.PHONY : CMakeFiles/maxSubArrayEqualOand1.dir/all
+CMakeFiles/NQueenCpp.dir/all:
+	$(MAKE) -f CMakeFiles/NQueenCpp.dir/build.make CMakeFiles/NQueenCpp.dir/depend
+	$(MAKE) -f CMakeFiles/NQueenCpp.dir/build.make CMakeFiles/NQueenCpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rdprassy/techiedelight/NQueenCpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target NQueenCpp"
+.PHONY : CMakeFiles/NQueenCpp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/maxSubArrayEqualOand1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/maxSubArrayEqualOand1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/maxSubArrayEqualOand1/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/maxSubArrayEqualOand1.dir/rule
+CMakeFiles/NQueenCpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/NQueenCpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NQueenCpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/NQueenCpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/NQueenCpp.dir/rule
 
 # Convenience name for target.
-maxSubArrayEqualOand1: CMakeFiles/maxSubArrayEqualOand1.dir/rule
+NQueenCpp: CMakeFiles/NQueenCpp.dir/rule
 
-.PHONY : maxSubArrayEqualOand1
+.PHONY : NQueenCpp
 
 # clean rule for target.
-CMakeFiles/maxSubArrayEqualOand1.dir/clean:
-	$(MAKE) -f CMakeFiles/maxSubArrayEqualOand1.dir/build.make CMakeFiles/maxSubArrayEqualOand1.dir/clean
-.PHONY : CMakeFiles/maxSubArrayEqualOand1.dir/clean
+CMakeFiles/NQueenCpp.dir/clean:
+	$(MAKE) -f CMakeFiles/NQueenCpp.dir/build.make CMakeFiles/NQueenCpp.dir/clean
+.PHONY : CMakeFiles/NQueenCpp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
