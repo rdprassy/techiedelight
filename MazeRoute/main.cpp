@@ -5,7 +5,7 @@ using namespace std;
 #define M 10
 #define N 10
 
-int maxlength = 0;
+int maxlength = 101;
 
 
 void findLargestLength(int a[][N], int b[][N], int startx,int starty, int endx, int endy, int length);
@@ -16,23 +16,23 @@ int main() {
 //    std::cout << "Hello, World!" << std::endl;
 
     int a[M][N] = 	{
-            { 1, 0, 1, 1, 1, 1, 0, 1, 1, 1 },
-            { 1, 0, 1, 0, 1, 1, 1, 0, 1, 1 },
-            { 1, 1, 1, 0, 1, 1, 0, 1, 0, 1 },
-            { 0, 0, 0, 0, 1, 0, 0, 1, 0, 0 },
-            { 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 },
-            { 1, 1, 1, 1, 1, 1, 1, 1, 1, 0 },
-            { 1, 0, 0, 0, 1, 0, 0, 1, 0, 1 },
-            { 1, 0, 1, 1, 1, 1, 0, 0, 1, 1 },
-            { 1, 1, 0, 0, 1, 0, 0, 0, 0, 1 },
-            { 1, 0, 1, 1, 1, 1, 0, 1, 0, 0 }
+            { 1, 1, 1, 1, 1, 0, 0, 1, 1, 1 },
+            { 0, 1, 1, 1, 1, 1, 0, 1, 0, 1 },
+            { 0, 0, 1, 0, 1, 1, 1, 0, 0, 1 },
+            { 1, 0, 1, 1, 1, 0, 1, 1, 0, 1 },
+            { 0, 0, 0, 1, 0, 0, 0, 1, 0, 1 },
+            { 1, 0, 1, 1, 1, 0, 0, 1, 1, 0 },
+            { 0, 0, 0, 0, 1, 0, 0, 1, 0, 1 },
+            { 0, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+            { 1, 1, 1, 1, 1, 0, 0, 1, 1, 1 },
+            { 0, 0, 1, 0, 0, 1, 1, 0, 0, 1 },
     };
 
     int b[M][N];
 
     memset(b,0, sizeof(a));
 
-    int startx =0, starty=0, endx=5, endy =7, length = 0;
+    int startx =0, starty=0, endx=7, endy =5, length = 0;
 
     findLargestLength(a,b,startx,starty,endx,endy,length);
 
@@ -46,7 +46,7 @@ void findLargestLength(int a[][N], int b[][N], int startx, int starty ,int endx,
 
     if(startx == endx && starty == endy){
 
-        if(length>maxlength){
+        if(length<maxlength){   //use > for max and < for min
             maxlength = length;
             b[startx][starty] =0;
 
