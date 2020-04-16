@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void printcombination(vector<int> &a,int k ,int N) {
+void printcombination(vector<int> a,int k ,int N) {
     if(k>N){
        for(int j:a){
            cout<<j<<" ";
@@ -36,7 +36,7 @@ void printcombination(vector<int> &a,int k ,int N) {
 
 int main() {
 //    std::cout << "Hello, World!" << std::endl;
-int N =3;
+int N =7;
 vector<int> a(2*N,-1);
 
 printcombination(a,1,N);
