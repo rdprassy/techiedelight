@@ -1,3 +1,5 @@
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 class Node{
     int value;
@@ -39,7 +41,49 @@ public class HeightOfBinaryTreeRec {
 
         System.out.println(heightOfBinaryTree(z1));
 
+        System.out.println(heightOfBinaryTreeIterative(z));
 
+
+    }
+
+    private static int heightOfBinaryTreeIterative(Node z) {
+
+        int height =0;
+        Queue<Node> q = new ArrayDeque<>();
+
+        q.add(z);
+
+        while(!q.isEmpty()){
+            int size = q.size();
+            while((size--)>0){
+
+                Node z1= q.peek();
+                q.poll();
+
+                if(z1.left!=null){
+                    q.add(z1.left);
+                }
+
+                if(z1.right!=null){
+                    q.add(z1.right);
+                }
+
+
+
+
+
+
+            }
+
+            height+=1;
+
+
+        }
+
+
+
+
+        return height;
     }
 
     private static int heightOfBinaryTree(Node z) {
