@@ -1,4 +1,6 @@
 #include <iostream>
+#include <queue>
+
 using namespace std;
 
 struct Node{
@@ -15,6 +17,7 @@ struct Node{
 
 int heightOfBinaryTree(Node *pNode);
 
+int heightOfBinaryTreeIterative(Node *pNode);
 int main() {
 //    std::cout << "Hello, World!" << std::endl;
 
@@ -43,6 +46,8 @@ int main() {
 
    cout <<finalheight<<endl;
 
+   cout<<heightOfBinaryTreeIterative(x)<<endl;
+
     return 0;
 }
 
@@ -52,5 +57,35 @@ int heightOfBinaryTree(Node *root) {
         return 0;
     }
     return(1+max(heightOfBinaryTree(root->left),heightOfBinaryTree(root->right)));
+
+}
+
+int heightOfBinaryTreeIterative(Node *root) {
+int height = 0;
+queue<Node*> q;
+q.push(root);
+int size = q.size();
+
+while(!q.empty()){
+    size = q.size();
+
+while(size--) {
+    Node *z = q.front();
+    q.pop();
+    if (z->left != nullptr) {
+        q.push(z->left);
+    }
+    if (z->right != nullptr) {
+        q.push(z->right);
+    }
+
+
+}
+    height+=1;
+}
+
+
+
+return height;
 
 }
