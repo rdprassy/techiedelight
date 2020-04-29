@@ -1,4 +1,5 @@
 #include <iostream>
+#include<queue>
 using namespace std;
 
 struct Node{
@@ -14,6 +15,7 @@ struct Node{
 
 
 void deleteBinaryTree(Node *&pNode);
+void deleteBinaryTreeIterative(Node *&pNode);
 
 int main() {
 //    std::cout << "Hello, World!" << std::endl;
@@ -29,7 +31,8 @@ int main() {
     x->right->right = new Node(19);
 
 
-    deleteBinaryTree(x);
+//    deleteBinaryTree(x);
+    deleteBinaryTreeIterative(x);
 
     if(x == nullptr){
         cout<<"binary tree is deleted successfully"<<endl;
@@ -58,3 +61,37 @@ void deleteBinaryTree(Node *&z) {
 
 
 }
+
+void deleteBinaryTreeIterative(Node *&root) {
+
+    if(root == nullptr){
+
+        return;
+    }
+
+    queue<Node*> q;
+    q.push(root);
+
+
+    while(!q.empty()){
+
+            Node *z = q.front();
+            q.pop();
+            if (z->left != nullptr) {
+                q.push(z->left);
+            }
+            if (z->right != nullptr) {
+                q.push(z->right);
+            }
+            delete z;
+
+
+
+        }
+
+    root = nullptr;
+
+    }
+
+
+
