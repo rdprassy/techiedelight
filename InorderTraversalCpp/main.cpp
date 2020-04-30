@@ -31,6 +31,8 @@ int main() {
 
     printinorderrec(x);
 
+    cout<<"-------------";
+
     printinorderiter(x);
 
     return 0;
@@ -42,7 +44,7 @@ void printinorderiter(Node *z) {
         return;
 
     stack<Node *> st;
-    st.push(z);
+    //st.push(z);
     Node* current = z;
 
     while(!st.empty() || current!= nullptr){
