@@ -44,16 +44,16 @@ RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rdprassy/techiedelight/preorderTraversalCpp
+CMAKE_SOURCE_DIR = /home/rdprassy/techiedelight/bstInsertion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rdprassy/techiedelight/preorderTraversalCpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rdprassy/techiedelight/bstInsertion/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/preorderTraversalCpp.dir/all
+all: CMakeFiles/bstInsertion.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/preorderTraversalCpp.dir/clean
+clean: CMakeFiles/bstInsertion.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/preorderTraversalCpp.dir
+# Target rules for target CMakeFiles/bstInsertion.dir
 
 # All Build rule for target.
-CMakeFiles/preorderTraversalCpp.dir/all:
-	$(MAKE) -f CMakeFiles/preorderTraversalCpp.dir/build.make CMakeFiles/preorderTraversalCpp.dir/depend
-	$(MAKE) -f CMakeFiles/preorderTraversalCpp.dir/build.make CMakeFiles/preorderTraversalCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rdprassy/techiedelight/preorderTraversalCpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target preorderTraversalCpp"
-.PHONY : CMakeFiles/preorderTraversalCpp.dir/all
+CMakeFiles/bstInsertion.dir/all:
+	$(MAKE) -f CMakeFiles/bstInsertion.dir/build.make CMakeFiles/bstInsertion.dir/depend
+	$(MAKE) -f CMakeFiles/bstInsertion.dir/build.make CMakeFiles/bstInsertion.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rdprassy/techiedelight/bstInsertion/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target bstInsertion"
+.PHONY : CMakeFiles/bstInsertion.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/preorderTraversalCpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/preorderTraversalCpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/preorderTraversalCpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/preorderTraversalCpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/preorderTraversalCpp.dir/rule
+CMakeFiles/bstInsertion.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/bstInsertion/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bstInsertion.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rdprassy/techiedelight/bstInsertion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/bstInsertion.dir/rule
 
 # Convenience name for target.
-preorderTraversalCpp: CMakeFiles/preorderTraversalCpp.dir/rule
+bstInsertion: CMakeFiles/bstInsertion.dir/rule
 
-.PHONY : preorderTraversalCpp
+.PHONY : bstInsertion
 
 # clean rule for target.
-CMakeFiles/preorderTraversalCpp.dir/clean:
-	$(MAKE) -f CMakeFiles/preorderTraversalCpp.dir/build.make CMakeFiles/preorderTraversalCpp.dir/clean
-.PHONY : CMakeFiles/preorderTraversalCpp.dir/clean
+CMakeFiles/bstInsertion.dir/clean:
+	$(MAKE) -f CMakeFiles/bstInsertion.dir/build.make CMakeFiles/bstInsertion.dir/clean
+.PHONY : CMakeFiles/bstInsertion.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
