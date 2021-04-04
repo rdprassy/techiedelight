@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/rdprassy/techiedelight/searchInBST/main.cpp
+/home/rdprassy/techiedelight/PatternMatchingEasy/main.cpp
 iostream
--
-climits
 -
 
